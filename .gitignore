@@ -1,0 +1,44 @@
+# Prerequisites
+*.d
+*.sqlite3
+*.egg-info/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# YOLOv5 specific
+yolov5/
+dataset/
+runs/
+*.pt
+*.onnx
+*.tflite
+*.pb
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+*.hex
+*.elf
+*.bin
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.log
+temp/
+tmp/
+*.zip
